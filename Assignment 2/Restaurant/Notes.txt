@@ -1,0 +1,10 @@
+// Abdalla Fadl Shehata 
+// 20190305
+// G 15 
+
+
+to test Ajax
+
+please open code by Visual Studio Code
+
+and run a ( Live Server )

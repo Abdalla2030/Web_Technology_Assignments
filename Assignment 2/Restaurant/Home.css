@@ -1,0 +1,96 @@
+*{
+	padding : 0;
+	margin : 0 ;
+	font-family : sans-serif ;
+}
+body {
+ font-family : "segoe ui light" ; 
+}
+.navbar{
+	background-color: rgba(70,130,180);	
+	padding: 30px 0;
+	
+}
+.navbar ul li{
+	display: inline-block;
+	margin: 0 20px;
+	float: right;
+	position: relative;
+}
+.navbar ul li a{
+	color: 	#FFFF00;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background: #FFFF00;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.Home{
+	background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("images/background.jpg");
+    background-size : cover ;
+    background-position : center  ;
+    background-repeat : no-repeat;
+	height : 100vh ; 
+	overflow : hidden ;
+}
+.Home .Caption {
+	width : 60%;
+	margin : 160px auto 60px ; 
+	text-align : center ;
+}
+.Home .Caption p {
+	font-family: Brush Script MT;
+	font-weight : 100 ;
+	margin : 20px auto ; 
+	font-size : 45px ; 
+	color : gold;
+	line-height:20px;
+}
+.Home .Caption h1 {
+	font-family: Garamond ;
+	color : 	#FCFFB1; 
+	font-size : 70px ; 
+}
+.Home .Buttons{
+	text-align : center ;
+}
+.Home .Buttons a{
+	text-decoration : none ;
+	color : #ffff;
+	border : 2px solid  #ffff;
+    padding : 18px 25px ; 
+    font-weight : bold ;
+    border-radius : 5px;
+	margin : 0 5px;
+}	
+.Home .Buttons a:hover{
+	background-color : #FFFF00;
+	color : #000; 
+	font-size : 20px ; 
+}
+.Home .Buttons .Button1{
+	background-color : #BDB76B;
+	color : #000;
+    border :2px solid transparent ;
+}	
+#click{
+	width: 150px;  
+	height: 50px;  
+	text-align:center;
+	margin: auto;  
+	font-weight : bold ;
+	background-color : #FCFFB1;
+	font-size : 20px ; 
+	border: 3px solid red;  
+	width: 12%;
+	margin-left: 44%;
+}
